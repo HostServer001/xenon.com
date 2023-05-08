@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xenon - Desktop Helping Program</title>
+  <style>
+    /* Body Styling */
+    body {
+      background-image:url("back.png");
+      background-size: cover;
+      font-family: "Courier New", Courier, monospace;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      overflow: hidden;\
+      border:15px;
+      background-color: #2e273f;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      float: left;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: transparent;
+      color: black;
+    }
+
+    .navbar a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    /* Main Content Styling */
+    .main {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+    }
+
+    .main h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main h2 {
+      font-size: 36px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main h3 {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main p {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+
+    .main button {
+      background-color: #808080;
+      color: white;
+      border-radius: 15px;
+      padding: 10px 20px;
+      border: none;
+      font-size: 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .main button a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .main button:hover {
+      background-color: #606060;
+    }
+
+    .my-image{
+        height:32px;
+        width:32px
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: ;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-style: italic;
+      color: #999;
+    }
+    /* Styles for screens with a maximum width of 768 pixels */
+
+@media screen and (max-width: 768px) {
+  /* Navbar styles */
+  body {
+      background-image:url("back-phone.png");
+      background-size: cover;
+      font-family: "Courier New", Courier, monospace;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
+    }
+  .navbar {
+    overflow: auto;
+    border-radius: 15px;
+    text-align:left
+  }
+
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    border-radius:15px
+  }
+
+
+  .navbar a.active {
+    background-color: transparent;
+    color:black
+  }
+
+  /* Main content styles */
+  .main {
+    padding: 10px;
+  }
+
+  .main h1 {
+    font-size: 36px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .main h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .main p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .main button {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+
+  /* Footer styles */
+  footer {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+  </style>
+</head>
+<body class="main">
+<h1 align="center">Xenon - Desktop Helper</h1>
+<!-- Navbar -->
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#features">Features</a>
+  <a href="#installation">Installation</a>
+  <a href="#help">Help</a>
+  <a href="#notice">Notice</a>
+  <a href="#developer">Developer</a>
+  <a href="command-help">Command-Help</a>
+
+</div>
+
+<div class="content">
+    <div>
+        <p>
+        Just A Attempt To Create A Good Thing
+        </p>
+    </div>
+
+      <h2 id="home">Desktop helping program</h2>
+      <p>Welcome to Xenon's web page, a program designed in python to make your desktop experience smoother and more efficient.
+          <br>
+          Xenon can be a valuable tool
+          for anyone looking to improve their desktop computer experience with a CLI program.
+      </p>
+        <br>
+
+      <h3 id="features">Features</h3>
+      <p>
+          -YouTube video downloader
+          <br>
+          -Whatsapp automation
+          <br>
+          -Local python server hosting
+          <br>
+          -File management commands
+          <br>
+          -Easily accessible calculator
+          <br>
+          -Window handling commands
+          <br>
+          -Utility commands
+          <br>
+          -Wikipedia in CLI
+          <br>
+          -Wifi controls
+          <br>
+          -Xenon FTP [File Transfer Protocol]
+          <br>
+          -Conversation with ChatGPT in CLI
+          <br>
+          -Comes with open-cv support
+          <br>
+          -Weather report in CLI
+      </p>
+
+        <h3 id="installation">Installation</h3>
+        <h4>Here's How You Can Install Xenon</h4>
+      <p>~Download the XenonSetup ZIP file by clicking on the button at the end of the section
+      <br>
+        ~Download python from Microsoft Store
+       <br>
+        ~Unzip the XenonSetup file in Downloads folder itself
+        <br>
+        ~Start PowerShell
+        <br>
+        ~Type:- cd Downloads
+        <br>
+        ~Type:- python XenonSetup
+        <br>
+        ~Check your Desktop
+        <br>
+        ~Start Xenon.bat by double-clicking on it
+        <br>
+        ~Wait until it installs everything
+        <br>
+        ~Reopen thw same file -> enter credentials -> restart Xenon
+        <br>
+        Done!
+      </p>
+            <a href="https://hostserver001.github.io/xenon.web/XenonSetup.zip" download>
+                <img src="RSS/download-button.png">
+            </a>
+        <br>
+
+        <h3 id="help">Help</h3>
+      <p>You can ask for help on Telegram:-
+          <br>
+          <a href="https://t.me/xenonSupportGroup"  target="_blank"><img src="RSS/support-group-button.png"></a>
+        <br>
+          ~Telegram id:- @xenonSupportGroup
+          <br>
+          ~You can share your error-report.txt file on telegram support group in case facing any error or issue
+          <br>
+          ~Tag the admins in the group using @admins tag
+          <br>
+        <br>
+        Source code:-
+        <br>
+        ~Check <a href="https://github.com/orgs/Xenon-Versions/repositories">this</a> if you want source codes of Xenon versions
+        <br>
+        ~Versions less than 0.3 are not available in this organisation
+        <br>
+        ~Short notes for almost every version is available in the telegram support group
+  </p>
+  <h3 id="notice">Notice</h3>
+  <p>
+    In this website only latest version of Xenon is available
+    <br>
+    If your device don't support the latest version or having trouble running the latest version you can check
+    <a href="https://github.com/orgs/Xenon-Versions/repositories">this GitHub organisation</a> and can install your desired version yourself
+  </p>
+  <h3 id="developer">Developer</h3>
+    <p>
+        This  website and the project is developed by individual effort
+        <br>
+        You can contact the developer using following social media sites:-
+        <br>
+        <img src="RSS/block.png">
+        <a href="https://t.me/itsDevXenon" target="_blank">
+            <img src="https://web.telegram.org/favicon.ico" title="Telegram" class="my-image">
+        </a>
+        <br>
+        <img src="RSS/block.png">
+        <a href="https://wa.me/919320470322/" target="_blank">
+            <img src="RSS/whatsapp.ico" title="Whatsapp" class="my-image">
+        </a>
+        <br>
+        <img src="RSS/block.png">
+        <a href="https://github.com/py1000" target="_blank">
+            <img src="https://github.com/favicon.ico" title="GitHub" class="my-image">
+        </a>
+    </p>
+
+</div>
+</body>
